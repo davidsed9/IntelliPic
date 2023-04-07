@@ -16,6 +16,7 @@ function App() {
   //const engineId = 'stable-diffusion-512-v2-1';
   const apiHost = 'https://api.stability.ai';
   const apiKey = import.meta.env.VITE_SD_API_KEY;
+  //this crazy
 
   const [userPrompt, setUserPrompt] = useState('');
   const [number, setNumber] = useState(1);
